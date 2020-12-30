@@ -1,0 +1,16 @@
+{
+    "name": "AuthMineweb",
+    "author": ["Holo", "EmpireDev"],
+    "version": "1.4.0",
+    "useEvents": false,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.2.0"
+    }
+}
