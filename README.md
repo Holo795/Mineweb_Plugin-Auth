@@ -4,8 +4,8 @@ A remake of the Auth plugin of Mineweb
 - Added reauth system
 
 ## Description
-Ce plugin vous permettra de mettre une authentification personnalisé sur votre Launcher. 
-Créé par EmpireDev | Florent Calabrési
+Ce plugin vous permettra de mettre une authentification personnalisé sur votre Launcher.  
+Créé par EmpireDev | Florent Calabrési et modifié par Holo | Paulin Segura
 
 ## Installation | FTP
 1. Cliquez sur "Clone or download" sur la page "https://github.com/MineWeb/Plugin-Auth".
