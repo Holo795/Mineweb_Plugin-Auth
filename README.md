@@ -1,6 +1,6 @@
 # Plugin Mineweb | AuthMineweb
-A remake of the Auth plugin of Mineweb
--Fixed bug
+A remake of the Auth plugin of Mineweb  
+-Fixed bug  
 -Added reauth system
 
 ## Description
