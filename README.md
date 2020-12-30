@@ -1,4 +1,4 @@
-# Plugin Mineweb | AuthMineweb
+# Plugin [Mineweb](https://mineweb.org/) | AuthMineweb
 A remake of the Auth plugin of Mineweb  
 - Fixed bug  
 - Added reauth system
