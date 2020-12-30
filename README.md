@@ -21,4 +21,4 @@ Créé par EmpireDev | Florent Calabrési
 5. Installation effectuée.
 
 
-Vous trouverez la DOCUMENTATION et le fichier JAR [ici](http://www.reddit.com)
+Vous trouverez la DOCUMENTATION et le fichier JAR [ici](https://github.com/Holo795/Mineweb_Plugin-Auth/tree/master/Documentation)
