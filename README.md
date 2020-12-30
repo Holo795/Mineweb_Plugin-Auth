@@ -1,5 +1,7 @@
 # Plugin Mineweb | AuthMineweb
 A remake of the Auth plugin of Mineweb
+-Fixed bug
+-Added reauth system
 
 ## Description
 Ce plugin vous permettra de mettre une authentification personnalisé sur votre Launcher. 
