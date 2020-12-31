@@ -21,6 +21,8 @@ sur votre Launcher
  
 Faire la liaison avec username et password :
 ```java
+import fr.holo.mineweb.auth.mineweb.AuthMineweb;
+
 AuthMineweb.setTypeConnection(TypeConnection.launcher);
 AuthMineweb.setUrlRoot("https://exemple.com");
 AuthMineweb.setUsername("Holo");
