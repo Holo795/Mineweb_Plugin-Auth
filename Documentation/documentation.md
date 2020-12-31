@@ -2,10 +2,10 @@
 - Ce plugin vous permettra de mettre une authentification personnalisé
 sur votre Launcher
 
-<h1>Installation  
+<h1>Installation :  
   
   
-## - Web | FTP
+## Web | FTP
 - Cliquez sur "Clone or download" sur la page "https://github.com/Holo795/Mineweb_Plugin-Auth/".
 - Téléchargez et enregistrez le ZIP, puis extrayez le.
 - Renommez le fichier "Mineweb_Plugin-Auth-master" par "Auth".
