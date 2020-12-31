@@ -78,7 +78,8 @@ public static void reauth(String username, String accesstoken, String clienttoke
 ### Configuration :
 | Parameter         |      Default  |  Description |
 |-------------------|:-------------:|------------------------------------------------------------------------------------------------------------:|
-| setTypeConnection |  null | TypeConnection.launcher (authentification) ou TypeConnection.ingame \n (récupération d'information à partir de l'uuid) |
+| setTypeConnection |  null | TypeConnection.launcher (authentification) ou TypeConnection.ingame  
+(récupération d'information à partir de l'uuid) |
 | col 2 is          |    centered   |   $12 |
 | col 3 is          | right-aligned |    $1 |
 ##
