@@ -19,7 +19,7 @@ sur votre Launcher
 
 ###  Exemples
  
-Faire la connexion avec username et password :
+Connexion avec Username et Password :
 ```java
 public static void auth(String username, String password) {
 
@@ -46,7 +46,33 @@ public static void auth(String username, String password) {
 
 }
 ```
+   
+Connexion avec Username, AccessToken et ClientToken :
 ```java
-	auth("Holo","123456");
+public static void reauth(String username, String accesstoken, String clienttoken) {
+
+	AuthMineweb.setTypeConnection(TypeConnection.launcher);
+	AuthMineweb.setUrlRoot("https://exemple.com");
+	AuthMineweb.setUsername(username);
+	AuthMineweb.setAccessToken(accesstoken);
+	AuthMineweb.setClientToken(clienttoken);
+	try {
+		AuthMineweb.reauth();
+	} catch (DataWrongException | DataEmptyException | ServerNotFoundException | IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+	if (AuthMineweb.isConnected()) {
+		Thread t = new Thread() {
+			@Override
+			public void run() {
+				//Action à faire après la connexion
+			}
+		};
+		t.start();
+	}
+
+}
 ```
 ##
