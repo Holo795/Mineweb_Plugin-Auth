@@ -17,7 +17,7 @@ sur votre Launcher
 ## Java | Launcher
 - Ajoutez la librairie Java "[AuthMineweb_1.4.0.jar](https://github.com/Holo795/Mineweb_Plugin-Auth/raw/master/Documentation/AuthMineweb_1.4.0.jar)" à votre projet.
 
-###  Exemples
+###  Exemples :
  
 Connexion avec Username et Password :
 ```java
