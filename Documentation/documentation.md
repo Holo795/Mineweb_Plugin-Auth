@@ -2,7 +2,6 @@
 - Ce plugin vous permettra de mettre une authentification personnalisé
 sur votre Launcher
 
-# Installation
 <h1>Installation<h1/>
 
 ## Web | FTP
