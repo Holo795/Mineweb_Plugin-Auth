@@ -1,6 +1,6 @@
 # AuthMineweb
 - Ce plugin vous permettra de mettre une authentification personnalisé
-sur votre Launcher
+sur votre Launcher  
 
 # Installation  
 - Ce plugin vous permettra de mettre une authentification personnalisé
