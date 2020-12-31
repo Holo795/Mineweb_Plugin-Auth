@@ -79,6 +79,6 @@ public static void reauth(String username, String accesstoken, String clienttoke
 | Parameter         |      Default  |  Description |
 |:-------------------:|:-------------:|:-----------:|
 | setTypeConnection |  null | TypeConnection.launcher (authentification) ou TypeConnection.ingame (get info by uuid) |
-| col 2 is          |    centered   |   $12 |
+| setUrlRoot          |   " "   |  Url de votre site où il y a le plugin |
 | col 3 is          | right-aligned |    $1 |
 ##
