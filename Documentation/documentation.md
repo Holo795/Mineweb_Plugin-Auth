@@ -85,8 +85,8 @@ public static void reauth(String username, String accesstoken, String clienttoke
 | setAccessToken    |  " "  |  AccessToken de l'utilisateur                                                          |
 | setClientToken    |  " "  |  ClientToken de l'utilisateur                                                          |
 | setDebug          | false |  Afficher des logs supplémentaires dans la console                                     |
-| isConnected       | false |  Boolean. Return true si la connexion est établie                                      |
-   
+| isConnected       | false |  Boolean. Return true si la connexion est établie                                      |  
+   
 ### Variables utilisateurs : 
 ```java
 String money = AuthMineweb.getSession.getUser("money");
