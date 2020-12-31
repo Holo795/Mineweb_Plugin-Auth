@@ -22,26 +22,24 @@ sur votre Launcher
 Faire la liaison avec username et password :
 ```java
 AuthMineweb.setTypeConnection(TypeConnection.launcher);
-		AuthMineweb.setUrlRoot("https://exemple.com");
-		AuthMineweb.setUsername("Holo");
-		AuthMineweb.setPassword("123456");
-		try {
-			AuthMineweb.auth();
-		} catch (DataWrongException | DataEmptyException | ServerNotFoundException | IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+AuthMineweb.setUrlRoot("https://exemple.com");
+AuthMineweb.setUsername("Holo");
+AuthMineweb.setPassword("123456");
+try {
+	AuthMineweb.auth();
+} catch (DataWrongException | DataEmptyException | ServerNotFoundException | IOException e) {
+	// TODO Auto-generated catch block
+	e.printStackTrace();
+}
 
-		if (AuthMineweb.isConnected()) {
-			Thread t = new Thread() {
-				@Override
-				public void run() {
-					//action à faire apres la connextion
-				}
-			};
-			t.start();
+if (AuthMineweb.isConnected()) {
+	Thread t = new Thread() {
+		@Override
+		public void run() {
+			//action a faire apres la connexion
 		}
-
-	}
+	};
+	t.start();
+}
 ```
 ##
