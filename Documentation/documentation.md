@@ -3,6 +3,7 @@
 sur votre Launcher
 
 # Installation
+<h1>Installation<h1/>
 
 ## Web | FTP
 - Cliquez sur "Clone or download" sur la page "https://github.com/Holo795/Mineweb_Plugin-Auth/".
