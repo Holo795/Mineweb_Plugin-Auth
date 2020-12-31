@@ -86,5 +86,24 @@ public static void reauth(String username, String accesstoken, String clienttoke
 | setClientToken    |  " "  |  ClientToken de l'utilisateur                                                          |
 | setDebug          | false |  Afficher des logs supplémentaires dans la console                                     |
 | isConnected       | false |  Boolean. Return true si la connexion est établie                                      |
+   
+### Variables utilisateurs : 
+```java
+String money = AuthMineweb.getSession.getUser("money");
+String ....
 
+/*ID de l’utilisateur Nom de la variable : {id}
+Pseudo Nom de la variable : {pseudo}
+Adresse mail Nom de la variable : {email}
+Grade sur le site Nom de la variable : {rank}
+Nombre de Points boutique Nom de la variable : {money}
+Nombre de votes Nom de la variable : {vote}
+Adresse ip enregistrée sur le site Nom de la variable : {ip}
+Date de création de compte Nom de la variable : {created}*/
+
+
+String accesstoken = AuthMineweb.getSession.getAccessToken();
+String clienttoken = AuthMineweb.getSession.getClientToken();
+String uuid = AuthMineweb.getSession.getUuid();
+```
 ##
