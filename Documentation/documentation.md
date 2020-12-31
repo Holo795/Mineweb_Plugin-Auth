@@ -12,4 +12,6 @@ sur votre Launcher
 - Déplacez le fichier dans votre FTP à l'adresse "/app/Plugin".
 - Supprimez tous les fichiers dans le "/app/tmp/cache" de votre FTP.
 - Installation effectuée. 
-##
+##  
+
+## Java | Launcher
