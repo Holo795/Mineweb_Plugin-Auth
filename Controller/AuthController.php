@@ -56,7 +56,7 @@ class AuthController extends AppController
                         $uuid = md5($user["pseudo"]);
                         $this->User->setToUser("auth-uuid", $uuid, $userId);
                     }
-                    $this->User->setToUser("ip", getUserIP(), $userId);
+                    $this->User->setToUser("last_ip", getUserIP(), $userId);
                     $accessToken = md5(uniqid(rand(), true));
                     $clientToken = $this->getClientToken();
                     $this->User->read(null, $userId);
@@ -87,13 +87,13 @@ class AuthController extends AppController
         if (isset($pseudo) && isset($authaccessToken) && isset($authclientToken)) {
             if (!empty($pseudo) && !empty($authaccessToken) && !empty($authclientToken)) {
                 $user = $this->User->getAllFromUser($pseudo);
-                if ($user['auth-accessToken'] == $authaccessToken && $user['auth-clientToken'] == $authclientToken && $user['ip'] == getUserIP()) {
+                if ($user['auth-accessToken'] == $authaccessToken && $user['auth-clientToken'] == $authclientToken && $user['last_ip'] == getUserIP()) {
                     $userId = $user['id'];
                     if (empty($user['auth-uuid'])) {
                         $uuid = md5($user["pseudo"]);
                         $this->User->setToUser("auth-uuid", $uuid, $userId);
                     }
-                    $this->User->setToUser("ip", getUserIP(), $userId);
+                    $this->User->setToUser("last_ip", getUserIP(), $userId);
                     $accessToken = md5(uniqid(rand(), true));
                     $clientToken = $this->getClientToken();
                     $this->User->read(null, $userId);
