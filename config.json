@@ -1,6 +1,6 @@
 {
     "name": "AuthMineweb",
-    "author": ["Holo", "EmpireDev"],
+    "author": "Holo, EmpireDev",
     "version": "1.4.0",
     "useEvents": false,
     "permissions": {
